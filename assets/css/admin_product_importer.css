@@ -1,0 +1,12 @@
+.form-control {
+    margin: 0 0 15px;
+}
+p.text-danger {
+    color: #dc7676;
+    margin: 10px 0;
+}
+
+p.text-success {
+    color: #006f00;
+    margin: 10px 0;
+}
