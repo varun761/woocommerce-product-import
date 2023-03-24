@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: CSV Variable Product Importer
+ * Plugin Name: Woocommerce CSV Variable Product Importer
  * Plugin URI: https://github.com/varun761/csv-variable-product-importer
  * Description: An extension to import variable products with variants in woocommerce.
  * Version: 1.0.0
@@ -32,7 +32,7 @@ if (!defined('WPI_PLUGIN_DIR_URL')) {
     define('WPI_PLUGIN_DIR_URL', plugin_dir_url(__FILE__));
 }
 
-class WooCommerce_Product_Importer
+class CSV_Variable_Product_Importer
 {
     protected $admin_page_baseurl = 'admin.php?page=csv-variable-product-importer';
 
@@ -195,4 +195,4 @@ class WooCommerce_Product_Importer
         return wp_redirect(admin_url($this->admin_page_baseurl . '&status=success'));
     }
 }
-$GLOBALS['woocommerce-brand'] = new WooCommerce_Product_Importer();
+$GLOBALS['woocommerce-brand'] = new CSV_Variable_Product_Importer();
