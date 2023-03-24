@@ -1,4 +1,4 @@
-# Woocomerce CSV Variable Product Import
+# CSV Variable Product Import
 
 Contributors: Varun</br>
 Tags: Woocommerce, Import, Variable Products</br>

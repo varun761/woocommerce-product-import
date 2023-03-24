@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Woocommerce CSV Variable Product Importer
+ * Plugin Name: CSV Variable Product Importer
  * Plugin URI: https://github.com/varun761/csv-variable-product-importer
  * Description: An extension to import variable products with variants in woocommerce.
  * Version: 1.0.0
