@@ -8,7 +8,7 @@
  * Author: Varun
  * Author URI: https://github.com/varun761
  * Text Domain: csv-variable-product-importer
- * Requires at least: 5.9
+ * Requires at least: 6.2
  * Requires PHP: 7.2
  *
  * @package WooCommerce
@@ -25,11 +25,11 @@ if (!in_array('woocommerce/woocommerce.php', $activated_plugins)) {
 /*
  * Plugin Directory
  */
-if (!defined('WPI_PLUGIN_DIR_PATH')) {
-    define('WPI_PLUGIN_DIR_PATH', plugin_dir_path(__FILE__));
+if (!defined('CVPI_PLUGIN_DIR_PATH')) {
+    define('CVPI_PLUGIN_DIR_PATH', plugin_dir_path(__FILE__));
 }
-if (!defined('WPI_PLUGIN_DIR_URL')) {
-    define('WPI_PLUGIN_DIR_URL', plugin_dir_url(__FILE__));
+if (!defined('CVPI_PLUGIN_DIR_URL')) {
+    define('CVPI_PLUGIN_DIR_URL', plugin_dir_url(__FILE__));
 }
 
 class CSV_Variable_Product_Importer
