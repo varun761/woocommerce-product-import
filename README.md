@@ -3,8 +3,8 @@
 Contributors: Varun</br>
 Tags: Woocommerce, Import, Variable Products</br>
 Requires at least: 5.9</br>
-Tested up to: 5.9</br>
-Stable tag: 1.0</br>
+Tested up to: 6.2</br>
+Stable tag: 1.0.0</br>
 License: GPLv2 or later</br>
 License URI: http://www.gnu.org/licenses/gpl-2.0.html</br>
 
