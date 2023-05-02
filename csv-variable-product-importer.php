@@ -195,4 +195,4 @@ class CSV_Variable_Product_Importer
         return wp_redirect(admin_url($this->admin_page_baseurl . '&status=success'));
     }
 }
-$GLOBALS['woocommerce-brand'] = new CSV_Variable_Product_Importer();
+$GLOBALS['csv_variable_prod_imp'] = new CSV_Variable_Product_Importer();
